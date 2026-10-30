@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-biobricks-org is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://biobricks.org/
+BioBricks aggregates and publishes advertised gene synthesis and sequencing prices from multiple vendors, fetching each price directly from vendor service pages and presenting them verbatim with verification dates. The site also provides extensive guides, product listings, and resources for laboratory equipment and protocols, aiming to offer transparent, up-to-date pricing data for researchers and biotech professionals.
+
+**Areas:** Bioinformatics · Gene Synthesis · Pricing · Laboratory Equipment · Open Data
+
+## biobricks-org on APIs.io
+
+Everything profiled for biobricks-org is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/biobricks-org/](https://apis.io/providers/biobricks-org/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [biobricks-org Dataset API](https://apis.io/apis/biobricks-org/biobricks-org-dataset-api/) — dataset
+- [biobricks-org Enquiry API](https://apis.io/apis/biobricks-org/biobricks-org-enquiry-api/) — enquiry
+- [biobricks-org MCP API](https://apis.io/apis/biobricks-org/biobricks-org-mcp-api/) — The mcp API from biobricks-org — 1 operation(s) for mcp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Biobricks Org Agentic Access](https://apis.io/agentic-access/biobricks-org/biobricks-org-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Biobricks Org Openapi Overlay](https://apis.io/overlays/biobricks-org/biobricks-org-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [biobricks-org API Rules](https://apis.io/rules/biobricks-org/biobricks-org-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Biobricks Org Authentication](https://apis.io/security/biobricks-org/biobricks-org-authentication/)
+- [Biobricks Org Domain Security](https://apis.io/security/biobricks-org/biobricks-org-domain-security/)
+- [Biobricks Org Vulnerability Disclosure](https://apis.io/security/biobricks-org/biobricks-org-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Biobricks Org Scopes](https://apis.io/scopes/biobricks-org/biobricks-org-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Biobricks Org Plans Pricing](https://apis.io/plans/biobricks-org/biobricks-org-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Biobricks Org Rate Limits](https://apis.io/rate-limits/biobricks-org/biobricks-org-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://biobricks.org/)
+- [Getting started](https://biobricks.org/quote/)
+- [API reference](https://biobricks.org/openapi.json)
+- [Pricing](https://biobricks.org/services/)
+- [Support](https://biobricks.org/answers/)
+- [Security](https://biobricks.org/terms)
+- [Terms of service](https://biobricks.org/terms/)
+- [Privacy policy](https://biobricks.org/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 45.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 31.6 |
+
+**Agent readiness 35.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/biobricks-org/](https://apis.io/providers/biobricks-org/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for biobricks-org: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/biobricks-org/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
